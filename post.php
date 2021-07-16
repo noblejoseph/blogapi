@@ -20,6 +20,7 @@ $query = "INSERT INTO post(post_title,post_description) VALUES('$ptitle','$pdesc
 			echo json_encode(array("message" => "Posted Successfully","status" => true));
 		}
 		
+		
 		else
 		{
 			echo json_encode(array("message" => "Failed","status" => false));
